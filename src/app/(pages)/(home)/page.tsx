@@ -273,7 +273,7 @@ const Home = () => {
                   src={post.media[currentImageIndex[post.id] ?? 0]}
                   alt={`Post Media`}
                   className="w-full h-auto max-h-80 object-cover cursor-pointer"
-                  
+                  controls
                   autoPlay
                   loop
                   muted
@@ -376,6 +376,7 @@ const Home = () => {
                   }
                   className="w-full h-auto max-h-96 object-cover"
                   autoPlay
+                  controls
                   loop
                   muted
                 />
